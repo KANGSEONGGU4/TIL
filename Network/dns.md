@@ -4,17 +4,17 @@
 
 ## DNS 작동 원리
 
-1. Local DNS 서버에 "www.naver.com"에 대해 query
+1. Local DNS 서버에 www.naver.com 에 대해 query
 
 2. Local DNS 서버에 정보가 없다면 Root DNS 서버에 query
 
-3. Root DNS 서버(Root Name Server)에서 "com 도메인"을 관리하는 TLD Name 서버 정보 전달
+3. Root DNS 서버(Root Name Server)에서 com 도메인을 관리하는 TLD Name 서버 정보 전달
 
 4. TLD Name 서버에 query
 
-5. TLD Name 서버에서 "naver.com" 관리하는 DNS 정보 전달
+5. TLD Name 서버에서 naver.com 관리하는 DNS 정보 전달
 
-6. "naver.com" 도메인을 관리하는 DNS 서버에 "www.naver.com"에 대한 IP 주소 query
+6. naver.com 도메인을 관리하는 DNS 서버에 www.naver.com에 대한 IP 주소 query
 
 7. Local DNS 서버에게 222.122.195.6 응답
 
