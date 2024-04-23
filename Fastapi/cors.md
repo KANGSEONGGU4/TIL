@@ -39,7 +39,7 @@ CORS 정책이 없고 모든 다른 출처 요청이 가능한 브라우저를 �
 오른쪽 서버의 URL은 domain-a.com과 domain-b.com 2가지 입니다.
 
 domain-a.com 유저가 domain-a.com 서버에 요청하면 동일 정책이기 때문에 아무런 문제가 없지만,
-domain-a.com 유저가 domain-b.com 서버에 요청하면 호스트(Host_가 다르기 때문에 다른 출처 요청을 합니다
+domain-a.com 유저가 domain-b.com 서버에 요청하면 호스트(Host)가 다르기 때문에 다른 출처 요청을 합니다
 
  
 
@@ -58,7 +58,7 @@ font같은 경우에는 다른 외부 사이트에서 실시간으로 import를 
 ## 다른 출처 요청 정책 3가지
 
 
-다른 출처 요청 정책 3가지를 알아보겠습니다. 단순요청(Simple Request), 프리플라이트 요청(Preflighted Request), 인증정보요청(Credential Request) 입니다.
+단순요청(Simple Request), 프리플라이트 요청(Preflighted Request), 인증정보요청(Credential Request) 입니다.
 
 
  
